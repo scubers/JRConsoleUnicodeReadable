@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name                  = "JRConsoleUnicodeReadable"
-    s.version="1.0.3"
+    s.version="1.0.4"
     s.summary               = "make xcode 8 console log unicode to readable format"
 
     s.homepage              = "https://github.com/scubers"
