@@ -13,6 +13,7 @@
 		09DD41601DACF66200362139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DD415E1DACF66200362139 /* Main.storyboard */; };
 		09DD41621DACF66200362139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DD41611DACF66200362139 /* Assets.xcassets */; };
 		09DD41651DACF66200362139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DD41631DACF66200362139 /* LaunchScreen.storyboard */; };
+		09DD416F1DACF68E00362139 /* JRConsoleUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DD416E1DACF68E00362139 /* JRConsoleUnicodeReadable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		09DD41611DACF66200362139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09DD41641DACF66200362139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09DD41661DACF66200362139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DD416D1DACF68E00362139 /* JRConsoleUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRConsoleUnicodeReadable.h; sourceTree = "<group>"; };
+		09DD416E1DACF68E00362139 /* JRConsoleUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRConsoleUnicodeReadable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		09DD41541DACF66200362139 /* JRConsoleUnicodeReadable */ = {
 			isa = PBXGroup;
 			children = (
+				09DD416C1DACF68E00362139 /* classes */,
 				09DD41581DACF66200362139 /* AppDelegate.h */,
 				09DD41591DACF66200362139 /* AppDelegate.m */,
 				09DD415B1DACF66200362139 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				09DD41561DACF66200362139 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09DD416C1DACF68E00362139 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				09DD416D1DACF68E00362139 /* JRConsoleUnicodeReadable.h */,
+				09DD416E1DACF68E00362139 /* JRConsoleUnicodeReadable.m */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09DD415D1DACF66200362139 /* ViewController.m in Sources */,
+				09DD416F1DACF68E00362139 /* JRConsoleUnicodeReadable.m in Sources */,
 				09DD415A1DACF66200362139 /* AppDelegate.m in Sources */,
 				09DD41571DACF66200362139 /* main.m in Sources */,
 			);
