@@ -20,7 +20,7 @@ read thisTag
 echo $thisTag
 
 # read podSpecName
-podSpecName="JRDB"
+podSpecName="JRConsoleUnicodeReadable"
 
 echo $podSpecName
 
