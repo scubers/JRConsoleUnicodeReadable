@@ -106,25 +106,31 @@ NSString *generateStringForSet(NSSet *set, int level) {
 
 @implementation NSDictionary (JRReadable)
 
+#ifdef DEBUG
 - (NSString *)descriptionWithLocale:(id)locale {
     return generateStringForDictionary(self, 0);
 }
+#endif
 
 
 @end
 
 @implementation NSArray (JRReadable)
 
+#ifdef DEBUG
 - (NSString *)descriptionWithLocale:(id)locale {
     return generateStringForArray(self, 0);
 }
+#endif
 
 @end
 
 @implementation NSSet (JRReadable)
 
+#ifdef DEBUG
 - (NSString *)descriptionWithLocale:(id)locale {
     return generateStringForSet(self, 0);
 }
+#endif
 
 @end
