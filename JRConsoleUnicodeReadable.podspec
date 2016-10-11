@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
     s.source                = { :git => "https://github.com/scubers/JRConsoleUnicodeReadable.git", :tag => "#{s.version}" }
 
 
-    s.source_files          = "classes/classes/**/*.{h,m}"
-    s.public_header_files   = "classes/classes/**/*.h"
+    s.source_files          = "JRConsoleUnicodeReadable/classes/**/*.{h,m}"
+    s.public_header_files   = "JRConsoleUnicodeReadable/classes/**/*.h"
 
     s.dependency 'FMDB'
 
