@@ -15,6 +15,4 @@ Pod::Spec.new do |s|
     s.source_files          = "JRConsoleUnicodeReadable/classes/**/*.{h,m}"
     s.public_header_files   = "JRConsoleUnicodeReadable/classes/**/*.h"
 
-    s.dependency 'FMDB'
-
 end
